@@ -159,6 +159,7 @@ img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s ease;
 }
 
 
