@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: blue;
+}
+
+.card{
+    width: calc((100% / 3) - 13px);
+    /* height: 100%; */
+    background-color: white;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block
+}
+
+.article-img{
+    
+}
+
+img{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+
+.hearth{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+.etiquette{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 90px;
+    text-align: center;
+    padding-top: 0.2rem;
+    font-weight: bold;
+}
+
+
+.discount{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    left: 0;
+    
+}
+
+.sustainable{
+    height: 20px;
+    width: 75px;
+    background-color: green;
+    left: 50px;
+}
+
+.article-info{
+    margin-bottom: 25px;
+}
+
+
+.article-info > #brand {
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.article-info > #type{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.article-info > span{
+    font-size: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.article-info > #discounted-price{
+    color: red;
+    display: inline-block;
+    font-size: 8px;
+}
+
+.article-info > #full-price{
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 0.2rem;
+    display: inline-block
+}
+
+
+
+
