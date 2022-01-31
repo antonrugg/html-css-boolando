@@ -9,7 +9,6 @@
     width: 80%;
     height: 100%;
     margin: auto;
-    background-color: blue;
 }
 
 .card{
@@ -19,6 +18,7 @@
     position: relative;
     margin-right: 5px;
     margin-left: 5px;
+    margin-top: 20px;
     display: inline-block
 }
 
@@ -30,18 +30,33 @@ img{
     width: 100%;
     height: 90%;
     position: relative;
+    cursor: pointer;
 }
 
+.back-img{
+    display: none;
+}
+
+.back-img .front-img:hover {
+    display: block;
+}
+
+
+
 .hearth{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     position: absolute;
     top: 10px;
     right: 0;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 0.3rem;
     font-size: 22px;
+}
+
+.hearth .front-img:hover{
+    color: red;
 }
 
 .etiquette{
@@ -70,8 +85,12 @@ img{
     left: 50px;
 }
 
+#sus-alone{
+    left: 0;
+}
+
 .article-info{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 
@@ -82,14 +101,14 @@ img{
 }
 
 .article-info > #type{
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
 }
 
 .article-info > span{
-    font-size: 8px;
+    font-size: 10px;
     font-weight: bold;
     display: inline-block;
 }
@@ -97,7 +116,8 @@ img{
 .article-info > #discounted-price{
     color: red;
     display: inline-block;
-    font-size: 8px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .article-info > #full-price{
