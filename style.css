@@ -19,11 +19,8 @@
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 20px;
-    display: inline-block
-}
-
-.article-img{
-    
+    display: inline-block;
+    float: left;
 }
 
 img{
@@ -33,17 +30,27 @@ img{
     cursor: pointer;
 }
 
-.back-img{
+
+
+
+
+/* .back-img{
     display: none;
+} */
+
+
+/* .card:hover .back-img{
+    display: inline-block;
+    transition: 0.4s;
+   
 }
 
-.card:hover .back-img{
-    display: inline-block;
-}
 
 .card:hover .front-img{
     display: none;
-}
+    transition: 0.4s;
+    
+} */
 
 
 .hearth{
@@ -56,10 +63,13 @@ img{
     text-align: center;
     padding-top: 0.3rem;
     font-size: 22px;
+    transition: 0.2s;
+    float: left;
 }
 
 .card:hover .hearth{
     color: red;
+    transform: scale(2.0);
 }
 
 .etiquette{
@@ -94,6 +104,7 @@ img{
 
 .article-info{
     margin-bottom: 15px;
+    
 }
 
 
@@ -129,6 +140,80 @@ img{
     margin-left: 0.2rem;
     display: inline-block
 }
+
+#full-price:after{
+    content:"\20AC";
+    font-size: 10px;
+    color: gray
+}
+
+#discounted-price:after{
+    content:"\20AC";
+    font-size: 10px;
+    color: red;
+}
+
+
+.article-bg{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.art-1{
+    height: 500px;
+    background-image: url("./img/1.webp");
+}
+
+
+.art-1:hover{
+    background-image: url("./img/1b.webp");
+    
+}
+
+.art-2{
+    background-image: url("./img/2.webp");
+}
+
+.art-2:hover{
+    background-image: url("./img/2b.webp");
+    
+}
+
+
+.art-3{
+    background-image: url("./img/3.webp");
+}
+
+.art-3:hover:hover{
+    background-image: url("./img/3b.webp");
+    
+}
+.art-4{
+    background-image: url("./img/4.webp");
+}
+
+.art-4:hover:hover{
+    background-image: url("./img/4b.webp");
+    
+}
+.art-5{
+    background-image: url("./img/5.webp");
+}
+.art-5:hover:hover{
+    background-image: url("./img/5b.webp");
+    
+}
+.art-6{
+    background-image: url("./img/6.webp");
+}
+.art-6:hover{
+    background-image: url("./img/6b.webp");
+    
+}
+
 
 
 
