@@ -37,10 +37,13 @@ img{
     display: none;
 }
 
-.back-img .front-img:hover {
-    display: block;
+.card:hover .back-img{
+    display: inline-block;
 }
 
+.card:hover .front-img{
+    display: none;
+}
 
 
 .hearth{
@@ -55,7 +58,7 @@ img{
     font-size: 22px;
 }
 
-.hearth .front-img:hover{
+.card:hover .hearth{
     color: red;
 }
 
