@@ -34,23 +34,22 @@ img{
 
 
 
-/* .back-img{
+.back-img{
     display: none;
-} */
+} 
 
 
-/* .card:hover .back-img{
+.card:hover .back-img{
     display: inline-block;
-    transition: 0.4s;
+    
    
 }
 
 
 .card:hover .front-img{
     display: none;
-    transition: 0.4s;
     
-} */
+}
 
 
 .hearth{
